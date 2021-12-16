@@ -1,0 +1,25 @@
+1. Inicio
+2. (ventas(2)(5), d[0-n])
+3. ventasJessica, i[0-n] <-- 0
+4. ventasRobert, i[0-n] <-- 0
+5. suma, d[0-n] <-- 0
+6. dia, i[0-n] <-- 1
+
+7. Para(ventasJessica<--0, ventasJessica<5, 1) haga
+8. 	Escribir "Ingrese las ventas del día " + dia + " de Jessica:\n"
+9.	leer ventas[0][ventasJessica]
+10. 	dia <-- dia + 1
+11. 	suma <-- suma + ventas[0][ventasJessica]
+12. Fin_Para
+
+13. dia <-- 1
+
+14. Para(ventasRobert<--0, ventasRobert<5, 1) haga
+15. 	Escribir "Ingrese las ventas del día " + dia + " de Robert:\n"
+16.	leer ventas[1][ventasRobert]
+17. 	dia <-- dia + 1
+18. 	suma <-- suma + ventas[1][ventasRobert]
+19. Fin_Para
+
+20. Escribir "Vendedor(a) Jessica Cole\nVendedor(a) Robert Wallace\n"
+21. Escribir "Ha realizado un total de " + suma + " en ventas"

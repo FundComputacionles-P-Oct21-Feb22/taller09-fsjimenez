@@ -1,0 +1,43 @@
+Problema 3
+
+1. Inicio
+2. (notas(3)(4),d[0-n])
+3. (promedios(3),d[0-n])
+4. (estudiantes(3),x(n)[{a-z},{A-Z}]))
+5. fila, i[0-n]
+6. colmna, i[0-n]
+7. suma, d[0-n]
+
+8.  notasEstudiantes[0][0] <-- 9
+9.  notasEstudiantes[0][1] <-- 10
+10.  notasEstudiantes[0][2] <-- 7
+11.  notasEstudiantes[0][3] <-- 8
+12.  notasEstudiantes[1][0] <-- 10
+13. notasEstudiantes[1][1] <-- 5
+14. notasEstudiantes[1][2] <-- 7
+15. notasEstudiantes[1][3] <-- 9
+16. notasEstudiantes[2][0] <-- 7
+17. notasEstudiantes[2][1] <-- 9.4
+18. notasEstudiantes[2][2] <-- 10
+19. notasEstudiantes[2][3] <-- 9
+
+20. estudiantes[0] <-- Jerry Ponce
+21. estudiantes[1] <-- Gabriela Lewis
+22. estudiantes[2] <-- David Bell
+
+23. Para(fila<--0, fila<3, 1) haga
+24.   suma <-- 0
+25.   contador <-- 0
+26.   Para(columna<--0, columna<4, 1) haga
+27.     suma <-- suma + notasEstudiantes[fila][columna]
+28. 	contador <-- contador + 1
+29.   Fin_Para
+30.   promedios[fila] <-- suma/contador   
+31. Fin_Para
+
+32. Para(fila<--0, fila<3, 1) haga
+33.   Escribir "Estudiante: " + estudiantes[fila] + " tiene un promedio de " + promedio[fila]
+34. Fin_Para
+
+
+

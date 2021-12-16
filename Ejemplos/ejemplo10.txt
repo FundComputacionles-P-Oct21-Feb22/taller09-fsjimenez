@@ -14,8 +14,17 @@
 10.   Para(columna<--0, columna<3, 1) haga
 11.     Si fila == columna entonces
 12.       suma <-- suma + notasEstudiantes[fila][columna] 
+		   // 0 + notasEstudiantes[0][0]  // 0 + 10 // 10 
+		   // 10 + notasEstudiantes[1][1]  // 10 + 5 // 15 
 13.     Fin Si
 14.   Fin_Para 
 15. Fin_Para 
-16. Fin
+16. Escribir suma
+17. Fin
 
+
+// fila 0, 1
+
+// columna 0, 1, 2, 3, 0, 1
+
+// suma 0, 10

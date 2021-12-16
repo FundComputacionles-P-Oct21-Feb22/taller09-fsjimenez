@@ -1,0 +1,22 @@
+1.  Inicio
+2.  (arreglo1(4)(4),i[1-n])
+3.  fila, i[0-n]
+4.  columna, i[0-n]
+5.  valor, i[0-n]
+8.  arreglo1 <-- {{20, 30, 40, 50}, {2, 3, 4, 5}, {200, 300, 400, 500}, {10, 11, 12, 14}}
+9.  Para(fila<--0, fila<4, 1) haga // 0<4 v // 1<4 v // 2<4 v // 3<4 v // 4<4 f 
+10.   Para(columna<--0, columna<4, 1) haga // 0<4 v // 1<4 v // 2<4 v // 3<4 v // 4<4 f
+11.     Si fila > columna entonces // 0>0 f // 0>1 f // 0>2 f // 0>3 f 
+				   // 1>0 v // 1>1 f // 1>2 f // 1>3 f 
+				   // 2>0 v // 2>1 v // 2>2 f // 2>3 f 
+				   // 3>0 v // 3>1 v // 3>2 v // 3>3 f 
+12.       Escribir arreglo1[fila][columna]
+13.     Fin Si
+14.   Fin_Para 
+15. Fin_Para 
+17. Fin
+
+
+// fila 0, 1, 2, 3
+
+// columna 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3
